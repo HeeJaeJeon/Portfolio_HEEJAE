@@ -37,6 +37,12 @@ h3 {
   font-weight: 700 !important;
 }
 
+p {
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 16px !important;
+  color: var(--primary-grey) !important;
+}
+
 
 /********************************** NAVBAR **********************************/
 
@@ -161,9 +167,45 @@ nav a.nav-link {
   max-width: 61%;
 }
 
+.works-header {
+  margin-top: 5rem !important;
+}
+
+.works-list {
+  margin-top: 2rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.works-imgs > a:link {
+  text-decoration: none;
+}
 
 .personalWorks {
   display:flex;
   justify-content: center;
+}
+
+@media(max-width: 1200px) {
+  .works-info h1 {
+    font-size: 2rem !important;
+  }
+
+  .works-info h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .works-info p {
+    font-size: 0.875rem !important;
+  }
+
+  .works-imgs {
+    margin-top: 1rem !important;
+  }
+
+  .works-list {
+    margin-top: 0 !important;
+    margin-bottom: 5rem !important;
+  }
+
 }
 
