@@ -1,21 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display:wght@700&display=swap');
 
 :root {
-  --primary-black: #121212;
+  --primary-black: #111111;
   --primary-blue: #0D8FCD;
   --primary-dark: rgb(255,255,255,0);
+  --primary-grey: #363636;
+  --primary-blue: #0D8FCD;
+  --primary-yellow: #FFDB35;
 }
 
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 16px !important;
+  color: var(--primary-grey) !important;
+
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif !important;
+  font-size: 51px !important;
+  color: var(--primary-black) !important;
+  font-weight: 700 !important;
+}
+
+h2 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 46px !important;
+  color: var(--primary-black) !important;
+  font-weight: 700 !important;
+}
+
+h3 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 25px !important;
+  color: var(--primary-black) !important;
+  font-weight: 700 !important;
 }
 
 
-/********************************** NavBar **********************************/
+/********************************** NAVBAR **********************************/
 
 
 .navLogo {
@@ -24,10 +47,14 @@ h1 {
 }
 
 .navbar {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  max-width: 81%;
+  transform: translate(12%);
+ 
 }
-
 
 /* ------------------ Menu links ------------------ */
 
@@ -38,16 +65,23 @@ nav a.nav-link {
   cursor: pointer;
 }
 
+
 .navbar-nav > li > a {
   color: var(--primary-black) !important;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  border-top: 0.1875rem solid var(--primary-dark);
+  border-top: 0.1875rem solid var(--primary-dark);;
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
+}
+
+@media(max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -57,3 +91,79 @@ nav a.nav-link {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-black);
 }
+
+
+/********************************** HEADER **********************************/
+
+.header-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+}
+
+.main-info {
+  max-width: 61%;
+}
+
+.main-info h1 {
+  margin-top: 3rem;
+}
+
+.intro1 {
+  margin-top: 4rem;
+}
+
+.intro2 {
+  margin-top: 2rem;
+}
+
+.intro2 > a {
+  color: var(--primary-grey);
+}
+
+.intro2 > a:hover {
+  color: inherit;
+}
+
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 2rem !important;
+  }
+  .main-info p {
+    font-size: 0.875rem !important;
+  }
+}
+
+.list-inline {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.list-inline-item > a.medium , .list-inline-item > a.linkedIn {
+  margin-left: 1rem;
+}
+
+
+/********************************** Works **********************************/
+
+.works-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+}
+
+.works-info {
+  max-width: 61%;
+}
+
+
+.personalWorks {
+  display:flex;
+  justify-content: center;
+}
+
