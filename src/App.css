@@ -147,6 +147,7 @@ nav a.nav-link {
 
 .list-inline {
   padding-bottom: 5rem;
+  vertical-align: middle !important;
 }
 
 .list-inline-item > a.medium , .list-inline-item > a.linkedIn {
@@ -348,8 +349,12 @@ nav a.nav-link {
     font-size: 0.875rem !important;
   }
 
+  .footerSocials {
+    vertical-align: middle !important;
+  }
+
 }
 
-/********************************** Footer **********************************/
+
 
 
