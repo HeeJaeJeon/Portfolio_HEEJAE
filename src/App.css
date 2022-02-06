@@ -61,9 +61,6 @@ li {
   padding-right: 0 !important;
   padding-bottom: 0 !important;
   padding-top: 0 !important;
-  max-width: 81%;
-  transform: translate(12%);
- 
 }
 
 /* ------------------ Menu links ------------------ */
@@ -127,6 +124,7 @@ nav a.nav-link {
 
 .intro2 {
   margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .intro2 > a {
@@ -148,7 +146,6 @@ nav a.nav-link {
 }
 
 .list-inline {
-  margin-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -279,6 +276,39 @@ nav a.nav-link {
 
   dd {
     font-size: 0.8125rem !important;
+  }
+
+}
+
+
+/********************************** Contact **********************************/
+
+.contact-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+}
+
+.contact-info {
+  max-width: 61% !important;
+}
+
+.contactHeader {
+  margin-top: 5rem !important;
+  margin-bottom: 2rem !important;
+  text-align: center;
+}
+
+.contactSocial {
+  display:flex;
+  justify-content: center;
+}
+
+@media(max-width: 768px) {
+  .contact-info h1 {
+    font-size: 2rem !important;
   }
 
 }

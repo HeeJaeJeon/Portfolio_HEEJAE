@@ -3,8 +3,8 @@ import PlaceHolder from "../Placeholder.png"
 
 const About = () => {
     return (
-        <div className="About-wrapper">
-            <div className="About-info border-bottom">
+        <div className="About-wrapper border-bottom">
+            <div className="About-info">
                 <h1 className='AboutHeader'>About HEEJAE</h1>
                 <img className="profilePicture featurette-image img-fluid mx-auto" role="img" aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={PlaceHolder} alt="Placeholder"></img>
                 <div className="row featurette about-contents">

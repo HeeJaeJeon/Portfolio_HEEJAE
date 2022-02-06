@@ -7,8 +7,8 @@ import Juniqe from "../Juniqe.png"
 
 const Works = () => {
     return (
-        <div className="works-wrapper ">
-            <div className="works-info border-bottom">
+        <div className="works-wrapper border-bottom">
+            <div className="works-info ">
                 <div className="row featurette works-header">
                     <div className="col-md-6">
                         <h1>Featured works</h1>
