@@ -241,9 +241,12 @@ nav a.nav-link {
 
 .about-contents {
   margin-top: 3rem !important;
-  margin-bottom: 5rem;
 }
 
+.about-contents-certificates {
+  margin-top: 3rem !important;
+  margin-bottom: 5rem;
+}
 
 .certsList {
   margin-top: 1rem !important;
@@ -251,4 +254,31 @@ nav a.nav-link {
 
 .experienceList {
   margin-top: 2rem;
+}
+
+@media(max-width: 1030px) {
+  .About-info h1 {
+    font-size: 2rem !important;
+  }
+
+  .About-info h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .About-info h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .About-info p {
+    font-size: 0.875rem !important;
+  }
+
+  dt {
+    font-size: 0.875rem !important;
+  }
+
+  dd {
+    font-size: 0.8125rem !important;
+  }
+
 }

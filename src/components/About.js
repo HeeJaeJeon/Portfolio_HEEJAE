@@ -68,7 +68,7 @@ const About = () => {
                         <p>JIRA, Monday, Trello, PARABOL, Google suites</p>
                     </div>
                 </div>
-                <div className="row featurette about-contents">
+                <div className="row featurette about-contents-certificates">
                     <div className="certHeader col-md-5">
                         <h2>Certificates</h2>
                     </div>
