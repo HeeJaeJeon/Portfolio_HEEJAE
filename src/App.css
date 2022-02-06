@@ -312,3 +312,44 @@ nav a.nav-link {
   }
 
 }
+
+
+/********************************** About this wehsite **********************************/
+
+
+.thisWebSite-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+}
+
+.thisWebSite-info {
+  max-width: 61%;
+  margin-bottom: 5rem;
+}
+
+.thisWebSiteHeader {
+  margin-top: 5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+@media(max-width: 768px) {
+  .thisWebSite-info h1 {
+    font-size: 2rem !important;
+  }
+
+  .thisWebSite-info p {
+    font-size: 0.875rem !important;
+  }
+
+  .thisWebSite-info li {
+    font-size: 0.875rem !important;
+  }
+
+}
+
+/********************************** Footer **********************************/
+
+
