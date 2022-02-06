@@ -43,6 +43,10 @@ p {
   color: var(--primary-grey) !important;
 }
 
+li {
+  font-size: 16px !important;
+}
+
 
 /********************************** NAVBAR **********************************/
 
@@ -209,3 +213,42 @@ nav a.nav-link {
 
 }
 
+
+/********************************** About **********************************/
+
+
+.About-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+}
+
+.About-info {
+  max-width: 61% !important;
+}
+
+.AboutHeader {
+  margin-top: 5rem !important;
+  display:flex;
+  justify-content: center;
+}
+
+.profilePicture {
+  margin-top: 2rem;
+}
+
+.about-contents {
+  margin-top: 3rem !important;
+  margin-bottom: 5rem;
+}
+
+
+.certsList {
+  margin-top: 1rem !important;
+}
+
+.experienceList {
+  margin-top: 2rem;
+}
