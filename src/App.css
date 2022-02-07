@@ -132,7 +132,7 @@ nav a.nav-link {
 }
 
 .intro2 > a:hover {
-  color: inherit;
+  color: var(--primary-blue);
 }
 
 

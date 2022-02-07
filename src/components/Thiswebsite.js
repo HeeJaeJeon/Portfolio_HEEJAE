@@ -9,8 +9,8 @@ const Thiswebsite = () => {
             <ul>
                 <li>Designed and built on a Macbook Pro using Figma and Visual Studio Code</li>
                 <li>Developed by using HTML, CSS, Reactjs, Bootstrap</li>
-                <li>Hosted by “ “</li>
-                <li>Tracking data using “ “</li>
+                <li>deployed by Netlify</li>
+                <li>Tracking data using Google analytics</li>
                 <li>Set in the wonderful Notosans and Playfair Display</li>
             </ul>
             </div>
