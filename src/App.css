@@ -267,7 +267,7 @@ li {
 
 .about-contents-certificates {
   margin-top: 3rem !important;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 .certsList {
@@ -351,7 +351,6 @@ li {
 }
 
 .thisWebSite-info {
-  max-width: 61%;
   margin-bottom: 7rem;
 }
 
@@ -372,14 +371,12 @@ li {
     font-size: 0.875rem !important;
   }
 
-  .footerSocials {
-    vertical-align: middle !important;
-  }
+
 
 }
 
 
-/********************************** About this wehsite **********************************/
+/********************************** footer **********************************/
 
 
 .footer-right {
@@ -390,8 +387,12 @@ li {
   padding-right: 1.5rem;
 }
 
+.footerSocials {
+  vertical-align: middle !important;
+}
 
-/********************************** Sections **********************************/
+
+
 
 
 

@@ -4,7 +4,7 @@ const Thiswebsite = () => {
     return (
         <div id="about" className="thisWebSite-wrapper">
             <div className="thisWebSite-info">
-                <h2 className="thisWebSiteHeader col-md-12 thisWebSiteHeader">About this website</h2>
+                <h2 className="thisWebSiteHeader col-md-12">About this website</h2>
                 <p>In case you were wondering this site is:</p>
                 <ul>
                     <li>Designed and built on a Macbook Pro using Figma and Visual Studio Code</li>
