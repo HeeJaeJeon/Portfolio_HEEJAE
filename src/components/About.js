@@ -1,15 +1,16 @@
 import React from "react";
 import PlaceHolder from "../Placeholder.png"
+import Thiswebsite from "./Thiswebsite";
 
 const About = () => {
     return (
-        <div className="About-wrapper border-bottom">
+        <div id="about" className="About-wrapper">
             <div className="About-info">
                 <h1 className='AboutHeader'>About HEEJAE</h1>
                 <img className="profilePicture featurette-image img-fluid mx-auto" role="img" aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={PlaceHolder} alt="Placeholder"></img>
                 <div className="row featurette about-contents">
                     <div className="col-md-5">
-                        <h2>Expertise</h2>
+                        <h2 id="scrollspyHeading3">Expertise</h2>
                     </div>
                     <div className="col-md-7">
                         <p className="lead">HEEJAE is a serveice/interaction designer currently based in South Korea who has great empathy and solid understanding of digital experience. He has been uncovering insights by conducting client/customer immersion activities such as observational studies, workshops, user interviews and user testings. He is also translating unveiled insights to design concepts on wireframes and mock-ups. He is eager to learn as well as attentive to details.</p>
@@ -107,8 +108,11 @@ const About = () => {
                         </ul>
                     </div>
                 </div>
+                <Thiswebsite />
             </div>
+            
         </div>
+
     );
 };
 

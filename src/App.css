@@ -9,10 +9,16 @@
   --primary-yellow: #FFDB35;
 }
 
+html {
+  scroll-padding-top: 81px !important; /* height of your navbar */
+}
+
 body {
   font-family: "Noto Sans", sans-serif !important;
   font-size: 16px !important;
   color: var(--primary-grey) !important;
+  scroll-behavior: smooth;
+  /* position: relative !important; */
 
 }
 
@@ -65,7 +71,7 @@ li {
 
 /* ------------------ Menu links ------------------ */
 
-nav a.nav-link {
+ nav a.nav-link {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -75,9 +81,6 @@ nav a.nav-link {
 
 .navbar-nav > li > a {
   color: var(--primary-black) !important;
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  border-top: 0.1875rem solid var(--primary-dark);;
 }
 
 .navbar-brand {
@@ -91,16 +94,20 @@ nav a.nav-link {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-black); 
+.active-scroll-spy {
+  background-color: #f6f6f6;
+  border-radius: 4px;
+ 
 }
 
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-black);
+.ss-item {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 
 /********************************** HEADER **********************************/
+
 
 .header-wrapper {
   position: relative;
@@ -115,7 +122,7 @@ nav a.nav-link {
 }
 
 .main-info h1 {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .intro1 {
@@ -139,14 +146,20 @@ nav a.nav-link {
 @media(max-width: 768px) {
   .main-info h1 {
     font-size: 2rem !important;
+    margin-top: 5rem;
   }
   .main-info p {
     font-size: 0.875rem !important;
   }
+
+  .list-inline {
+    padding-bottom: 5rem;
+    
+  }
 }
 
 .list-inline {
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
   vertical-align: middle !important;
 }
 
@@ -173,9 +186,14 @@ nav a.nav-link {
   margin-top: 5rem !important;
 }
 
-.works-list {
+.pro-works-list {
   margin-top: 2rem !important;
   margin-bottom: 5rem !important;
+}
+
+.personal-works-list {
+  margin-top: 2rem !important;
+  margin-bottom: 10rem !important;
 }
 
 .works-imgs > a:link {
@@ -190,6 +208,7 @@ nav a.nav-link {
 @media(max-width: 1200px) {
   .works-info h1 {
     font-size: 2rem !important;
+
   }
 
   .works-info h3 {
@@ -204,7 +223,12 @@ nav a.nav-link {
     margin-top: 1rem !important;
   }
 
-  .works-list {
+  .pro-works-list {
+    margin-top: 0 !important;
+    margin-bottom: 5rem !important;
+  }
+
+  .personal-works-list {
     margin-top: 0 !important;
     margin-bottom: 5rem !important;
   }
@@ -328,11 +352,10 @@ nav a.nav-link {
 
 .thisWebSite-info {
   max-width: 61%;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 .thisWebSiteHeader {
-  margin-top: 5rem !important;
   margin-bottom: 2rem !important;
 }
 
@@ -366,5 +389,13 @@ nav a.nav-link {
 .footer-social {
   padding-right: 1.5rem;
 }
+
+
+/********************************** Sections **********************************/
+
+
+
+
+
 
 
