@@ -13,13 +13,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <ScrollSpy scrollThrottle="0">
         <Navbar />
+        <ScrollSpy scrollThrottle="0" offsetTop="50">
         <Header />
         <Works />
         <About />
-        {/* <Contact /> */}
-        {/* <Thiswebsite /> */}
         <Footer />
       </ScrollSpy>
 
