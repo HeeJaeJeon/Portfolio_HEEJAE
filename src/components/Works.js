@@ -1,9 +1,9 @@
 import React from "react";
-import GSCaltexImg from "../GSCaltex.png";
-import HanwhaImg from "../HanwhaTechwin.png";
-import oneThirdFitnessImge from "../OneThirdFitness.png";
-import TAFSImg from "../TAFS.png"
-import Juniqe from "../Juniqe.png"
+import GSCaltexImg from "../images/GSCaltex.png";
+import HanwhaImg from "../images/HanwhaTechwin.png";
+import oneThirdFitnessImge from "../images/OneThirdFitness.png";
+import TAFSImg from "../images/TAFS.png"
+import Juniqe from "../images/Juniqe.png"
 
 const Works = () => {
     return (

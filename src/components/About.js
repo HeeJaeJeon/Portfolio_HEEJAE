@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceHolder from "../Placeholder.png"
+import PlaceHolder from "../images/Placeholder.png";
 import Thiswebsite from "./Thiswebsite";
 
 const About = () => {
