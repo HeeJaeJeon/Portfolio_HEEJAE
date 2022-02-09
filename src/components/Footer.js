@@ -1,5 +1,8 @@
 import React from 'react';
-import { Icon } from "@iconify/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faLinkedinIn, faMediumM } from "@fortawesome/free-brands-svg-icons";
+
 
 const Footer = () => {
     return (
@@ -9,12 +12,24 @@ const Footer = () => {
                 <span className="text-muted">© 2022 HeeJaeJeon</span>
             </div>
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex footer-social">
-                <li className="ms-3"><a className="text-muted" href="mailto:juns880526@hotmail.com"><Icon icon="fluent:mail-24-filled" color="#363636" height="33" /></a></li>
-                <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/heejaejeon/"><Icon icon="entypo-social:linkedin-with-circle" color="#363636" height="32" /></a></li>
-                <li className="ms-3"><a className="text-muted" href="https://medium.com/@juns880526"><Icon icon="ant-design:medium-circle-filled" color="#363636" height="34" /></a></li>
+                <li className="ms-3 footerSocialIcons">
+                    <a className="mailTo" target="_blank" href="mailto:juns880526@hotmail.com" >
+                        <FontAwesomeIcon icon={faEnvelope} className="socialIcons" />
+                    </a>
+                </li>
+                <li className="ms-3 footerSocialIcons">
+                    <a className="linkedIn" target="_blank" href="https://www.linkedin.com/in/heejaejeon/">
+                        <FontAwesomeIcon icon={faLinkedinIn} className="socialIcons" />
+                    </a>
+                </li>
+                <li className="ms-3 footerSocialIcons">
+                    <a className="medium" target="_blank" href="https://medium.com/@juns880526">
+                        <FontAwesomeIcon icon={faMediumM} className="socialIcons" />
+                    </a>
+                </li>
             </ul>
         </footer>
-    
+
     );
 }
 

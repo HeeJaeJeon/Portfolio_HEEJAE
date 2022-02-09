@@ -1,22 +1,26 @@
 import React from 'react';
-import { Icon } from "@iconify/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faLinkedinIn, faMediumM } from "@fortawesome/free-brands-svg-icons";
+
+
 
 const Socialicons = () => {
     return (
         <ul className="list-inline mb-0">
             <li className="list-inline-item g-mx-2">
                 <a className="mailTo" target="_blank" href="mailto:juns880526@hotmail.com" >
-                    <Icon icon="fluent:mail-24-filled" color="#363636" height="32" />
+                    <FontAwesomeIcon icon={faEnvelope} className="socialIcons"/>
                 </a>
             </li>
             <li className="list-inline-item g-mx-2">
                 <a className="linkedIn" target="_blank" href="https://www.linkedin.com/in/heejaejeon/">
-                    <Icon icon="entypo-social:linkedin-with-circle" color="#363636" height="31" />
+                    <FontAwesomeIcon icon={faLinkedinIn} className="socialIcons"/>
                 </a>
             </li>
             <li className="list-inline-item g-mx-2">
                 <a className="medium" target="_blank" href="https://medium.com/@juns880526">
-                    <Icon icon="ant-design:medium-circle-filled" color="#363636" height="34" />
+                    <FontAwesomeIcon icon={faMediumM} className="socialIcons" />
                 </a>
             </li>
         </ul>

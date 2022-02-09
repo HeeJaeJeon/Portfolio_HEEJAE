@@ -26,31 +26,41 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>Service Designer, Project Manager</dt>
-                                    <dd>Favorte Medium, S.Korea (Nov 2020 - Present)</dd>
+                                    <a className="experienceCompaniesLink" href="https://favoritemedium.com/" target="_blank">
+                                        <dd>Favorte Medium, S.Korea (Nov 2020 - Present)</dd>
+                                    </a>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>Service/Product Designer</dt>
+                                    <a className="experienceCompaniesLink" href="https://uxboost.com/" target="_blank">
                                     <dd>UX Booost, Remote (Apr 2020 - Nov 2020)</dd>
+                                    </a>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>Executive, Order Management</dt>
+                                    <a className="experienceCompaniesLink" href="https://www.bd.com/en-us" target="_blank">
                                     <dd>Becton Dickinson, Singapore (Jan 2018 - Oct 2019)</dd>
+                                    </a>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>Senior Room Division Executive</dt>
+                                    <a className="experienceCompaniesLink" href="https://www.marriott.com/en-us/hotels/sinsi-sheraton-towers-singapore/overview/" target="_blank">
                                     <dd>Sheraton Towers Singapore, Singapore (Jul 2016 - Jan 2018)</dd>
+                                    </a>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>Front Desk Clerk</dt>
+                                    <a className="experienceCompaniesLink" href="https://www.lottehotel.com/seoul-hotel/en.html" target="_blank">
                                     <dd>Lotte Hotel Seoul, S.Korea (Jun 2014 - Nov 2015)</dd>
+                                    </a>
                                 </dl>
                             </li>
                         </ul>
@@ -110,7 +120,7 @@ const About = () => {
                 </div>
                 <Thiswebsite />
             </div>
-            
+
         </div>
 
     );
