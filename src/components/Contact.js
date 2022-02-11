@@ -4,7 +4,7 @@ import Socialicons from "./Socialicons";
 const Contact = () => {
     return (
         
-            <div id="about" className="contact-wrapper border-bottom">
+            <div id="about" className="contact-wrapper">
                 <div className="contact-info">
                     <h1 className="contactHeader col-md-12">Feel free to Contact me!!</h1>
                     <div className="contactSocial col-md-12">

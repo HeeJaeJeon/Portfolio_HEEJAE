@@ -1,24 +1,38 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ScrollSpy from "react-ui-scrollspy";
+// import ScrollSpy from "react-ui-scrollspy";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Works from "./components/Works";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import GSCaltex from "./components/GSCaltex";
+import HangwhaTechwin from "./components/HanwhaTechwin";
+import OneThirdFitness from "./components/OneThirdFitness";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
+      <div>
         <Navbar />
-        <ScrollSpy scrollThrottle="0" offsetTop="50">
-        <Header />
-        <Works />
-        <About />
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/GSCaltex" element={<GSCaltex />} />
+          <Route path="/hanwhatechwin" element={<HangwhaTechwin />} />
+          <Route path="/onethirdfitness" element={<OneThirdFitness />} />
+        </Routes>
         <Footer />
-      </ScrollSpy>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

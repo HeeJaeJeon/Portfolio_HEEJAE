@@ -2,7 +2,7 @@ import React from 'react';
 
 const Thiswebsite = () => {
     return (
-        <div id="about" className="thisWebSite-wrapper">
+        <div  className="thisWebSite-wrapper">
             <div className="thisWebSite-info">
                 <h2 className="thisWebSiteHeader col-md-12">About this website</h2>
                 <p>In case you were wondering this site is:</p>

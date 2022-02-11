@@ -3,8 +3,8 @@ import PlaceHolder from "../images/Placeholder.png";
 import Thiswebsite from "./Thiswebsite";
 
 const About = () => {
-    return (
-        <div id="about" className="About-wrapper">
+  return (
+    <div id="about" className="About-wrapper">
             <div className="About-info">
                 <h1 className='AboutHeader'>About HEEJAE</h1>
                 <img className="profilePicture featurette-image img-fluid mx-auto" role="img" aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={PlaceHolder} alt="Placeholder"></img>
@@ -79,7 +79,7 @@ const About = () => {
                         <p>JIRA, Monday, Trello, PARABOL, Google suites</p>
                     </div>
                 </div>
-                <div className="row featurette about-contents-certificates">
+                <div className="row featurette about-contents-certificates border-bottom">
                     <div className="certHeader col-md-5">
                         <h2>Certificates</h2>
                     </div>
@@ -124,6 +124,7 @@ const About = () => {
         </div>
 
     );
-};
+}
 
 export default About;
+
