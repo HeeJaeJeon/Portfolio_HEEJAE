@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import GSCaltex from "./components/GSCaltex";
 import HangwhaTechwin from "./components/HanwhaTechwin";
 import OneThirdFitness from "./components/OneThirdFitness";
+import ScrollToTop from "./components/ScrollToTop";
 
 import {
   BrowserRouter,
@@ -20,6 +21,7 @@ import {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div>
         <Navbar />
         <Routes>
