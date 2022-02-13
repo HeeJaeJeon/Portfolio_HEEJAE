@@ -18,7 +18,7 @@ class GSCaltex extends React.Component {
                         <div classNames="col-md-12 container text-center project-head-heght">
                             <h1 className="project-h1">Creating supply and trading team’s operating system</h1>
                         </div>
-                        <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" role="img" aria-label="GSCaltexBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCaltexBg} alt="GSCaltexBg"></img></figure>
+                        <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" aria-label="GSCaltexBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCaltexBg} alt="GSCaltexBg"></img></figure>
                     </div>
                     <div className="project-info">
                         <div className="project-contents">
@@ -42,7 +42,7 @@ class GSCaltex extends React.Component {
                                     </ol>
                                 </div>
                                 <div className="col-md-5 discovery-imgs">
-                                    <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="GSC_discovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCDiscoveryPic} alt="GSC_discovery"></img></figure>
+                                    <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="GSC_discovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCDiscoveryPic} alt="GSC_discovery"></img></figure>
 
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ class GSCaltex extends React.Component {
                                     </ol>
                                 </div>
                                 <div className="col-md-5 discovery-imgs">
-                                    <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="GSC_ideation: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCIdeationPic} alt="GSC_ideation"></img></figure>
+                                    <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="GSC_ideation: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCIdeationPic} alt="GSC_ideation"></img></figure>
                                 </div>
                             </div>
                             <div className="row featurette projectModules">
@@ -74,7 +74,7 @@ class GSCaltex extends React.Component {
                                     <p className="project-p">We created wireframes and rapid prototypes. In designs, there are plenty of tales, graphs, filters and modals. The key of design was how we could prioritize and organize components. Therefore, we also had user testings and sharpened designs. Eventually, we could approach the final designs that users are happy with.</p>
                                 </div>
                                 <div className="col-md-5 discovery-imgs">
-                                    <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="GSC_testing: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCTesting} alt="GSC_testing"></img></figure>
+                                    <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="GSC_testing: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={GSCTesting} alt="GSC_testing"></img></figure>
                                 </div>
                             </div>
                             <div className="row featurette projectModules">

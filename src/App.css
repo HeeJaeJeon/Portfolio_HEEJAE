@@ -505,7 +505,7 @@ figure {
 
 /********************************** footer **********************************/
 
-.footer-right {
+.footer-left {
   padding-left: 1.5rem;
 }
 
@@ -533,8 +533,48 @@ figure {
 }
 
 
+@media (max-width: 768px) {
 
-/********************************** GS Caltex Project **********************************/
+  .footer-social {
+    margin-top: 0rem !important;
+  }
+
+}
+
+@media (max-width: 454px) {
+  
+  .footer-left {
+    padding-left: 10%;
+  }
+
+  .footer-social {
+    margin-top: 1rem !important;
+    padding-left: 10% !important;
+
+  }
+
+}
+
+@media (max-width: 280px) {
+  
+  .footer-left {
+    padding-left: 10%;
+  }
+
+  .footer-social {
+    margin-top: 1rem !important;
+    padding-left: 10% !important;
+
+  }
+
+  .footerSocialIcons {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+  }
+
+}
+
+/********************************** Projects **********************************/
 
 .project-wrapper {
   position: relative;
@@ -620,11 +660,11 @@ figure {
     font-size: 1.5rem !important;
   }
 
-  .project-info-info > p {
+  .project-info > p {
     font-size: 0.875rem !important;
   }
 
-  .project-info-info > li {
+  .project-info > li {
     font-size: 0.875rem !important;
   }
 
@@ -641,5 +681,14 @@ figure {
   .projectArrowLeft {
     text-align: center !important;
   }
+
+  .project-contents {
+    max-width: 80%;
+  }
+
+  .project-h1 {
+    padding: 6% 10% 6% 10%;
+  }
+
 
 }

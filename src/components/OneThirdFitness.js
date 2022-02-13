@@ -16,7 +16,7 @@ function OneThirdFitness() {
           <div classNames="col-md-12 container text-center project-head-heght">
             <h1 className="project-h1">Smart mirror app and admin web application</h1>
           </div>
-          <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" role="img" aria-label="OneThirdFitnessBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={OneThirdFitnessBg} alt="OneThirdFitnessBg"></img></figure>
+          <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" aria-label="OneThirdFitnessBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={OneThirdFitnessBg} alt="OneThirdFitnessBg"></img></figure>
         </div>
         <div className="project-info ">
           <div className="project-contents">
@@ -40,7 +40,7 @@ function OneThirdFitness() {
                 </ol>
               </div>
               <div className="col-md-5 discovery-imgs">
-                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="OneThirdFitnessDiscovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={OneThirdFitnessDiscovery} alt="OneThirdFitnessDiscovery"></img></figure>
+                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="OneThirdFitnessDiscovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={OneThirdFitnessDiscovery} alt="OneThirdFitnessDiscovery"></img></figure>
               </div>
             </div>
             <div className="row featurette projectModules">
@@ -61,7 +61,7 @@ function OneThirdFitness() {
                 </ol>
               </div>
               <div className="col-md-7 discovery-imgs">
-                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="OneThirdFitnessDesign: 520x468" preserveAspectRatio="xMidYMid slice" focusable="false" src={OneThirdFitnessDesign} alt="OneThirdFitnessDesign"></img></figure>
+                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="OneThirdFitnessDesign: 520x468" preserveAspectRatio="xMidYMid slice" focusable="false" src={OneThirdFitnessDesign} alt="OneThirdFitnessDesign"></img></figure>
 
               </div>
             </div>

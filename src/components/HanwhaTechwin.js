@@ -17,7 +17,7 @@ function HangwhaTechwin() {
                     <div classNames="col-md-12 container text-center project-head-heght">
                         <h1 className="project-h1">Self check in/out services by using image data from CCTV (PoC)</h1>
                     </div>
-                    <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" role="img" aria-label="HanwhaTechwinBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinBg} alt="HanwhaTechwinBg"></img></figure>
+                    <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" aria-label="HanwhaTechwinBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinBg} alt="HanwhaTechwinBg"></img></figure>
                 </div>
                 <div className="project-info ">
                     <div className="project-contents">
@@ -36,7 +36,7 @@ function HangwhaTechwin() {
                                 <p className="project-p">We had workshops to know Hanwha techwin’s business contexts and their objectives as well as success critera for this project. We found out that the key of this project is to understand current CCTV technologies and what kinds of image data we could get. Besides, it is important to know what kinds of scenarios we can use the data for.</p>
                             </div>
                             <div className="col-md-5 discovery-imgs">
-                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="HanwhTechwin_discovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinDiscoveryPic} alt="HanwhaTechwin_discovery"></img></figure>
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="HanwhTechwin_discovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinDiscoveryPic} alt="HanwhaTechwin_discovery"></img></figure>
 
                             </div>
                         </div>
@@ -46,7 +46,7 @@ function HangwhaTechwin() {
                                 <p className="project-p">We visited one of the hanwha hotels in Gangwon province in South korea and this hotel is executing self check in/out services. We conducted interviews with 6 staff from 3 different departments(front desk, maintenance team and housekeeping).  With sessions, we understand how they are currently using image data and uncover problems on self services. </p>
                             </div>
                             <div className="col-md-5 discovery-imgs">
-                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" role="img" aria-label="HanwahTechwinInterview: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwahTechwinInterview} alt="HanwahTechwinInterview"></img></figure>
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="HanwahTechwinInterview: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwahTechwinInterview} alt="HanwahTechwinInterview"></img></figure>
                             </div>
                         </div>
                         <div className="row featurette projectModules">

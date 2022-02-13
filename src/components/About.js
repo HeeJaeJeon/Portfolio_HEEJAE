@@ -7,7 +7,7 @@ const About = () => {
     <div id="about" className="About-wrapper">
             <div className="About-info">
                 <h1 className='AboutHeader'>About HEEJAE</h1>
-                <img className="profilePicture featurette-image img-fluid mx-auto" role="img" aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={PlaceHolder} alt="Placeholder"></img>
+                <img className="profilePicture featurette-image img-fluid mx-auto"  aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={PlaceHolder} alt="Placeholder"></img>
                 <div className="row featurette about-contents">
                     <div className="col-md-5">
                         <h2 id="scrollspyHeading3">Expertise</h2>
@@ -26,7 +26,7 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>Service Designer, Project Manager</dt>
-                                    <a className="experienceCompaniesLink" href="https://favoritemedium.com/" target="_blank">
+                                    <a className="experienceCompaniesLink" href="https://favoritemedium.com/" target="_blank" rel="noopener noreferrer">
                                         <dd>Favorte Medium, S.Korea (Nov 2020 - Present)</dd>
                                     </a>
                                 </dl>
@@ -34,7 +34,7 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>Service/Product Designer</dt>
-                                    <a className="experienceCompaniesLink" href="https://uxboost.com/" target="_blank">
+                                    <a className="experienceCompaniesLink" href="https://uxboost.com/" target="_blank" rel="noopener noreferrer">
                                     <dd>UX Booost, Remote (Apr 2020 - Nov 2020)</dd>
                                     </a>
                                 </dl>
@@ -42,7 +42,7 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>Executive, Order Management</dt>
-                                    <a className="experienceCompaniesLink" href="https://www.bd.com/en-us" target="_blank">
+                                    <a className="experienceCompaniesLink" href="https://www.bd.com/en-us" target="_blank" rel="noopener noreferrer">
                                     <dd>Becton Dickinson, Singapore (Jan 2018 - Oct 2019)</dd>
                                     </a>
                                 </dl>
@@ -50,7 +50,7 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>Senior Room Division Executive</dt>
-                                    <a className="experienceCompaniesLink" href="https://www.marriott.com/en-us/hotels/sinsi-sheraton-towers-singapore/overview/" target="_blank">
+                                    <a className="experienceCompaniesLink" href="https://www.marriott.com/en-us/hotels/sinsi-sheraton-towers-singapore/overview/" target="_blank" rel="noopener noreferrer">
                                     <dd>Sheraton Towers Singapore, Singapore (Jul 2016 - Jan 2018)</dd>
                                     </a>
                                 </dl>
@@ -58,7 +58,7 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>Front Desk Clerk</dt>
-                                    <a className="experienceCompaniesLink" href="https://www.lottehotel.com/seoul-hotel/en.html" target="_blank">
+                                    <a className="experienceCompaniesLink" href="https://www.lottehotel.com/seoul-hotel/en.html" target="_blank" rel="noopener noreferrer">
                                     <dd>Lotte Hotel Seoul, S.Korea (Jun 2014 - Nov 2015)</dd>
                                     </a>
                                 </dl>

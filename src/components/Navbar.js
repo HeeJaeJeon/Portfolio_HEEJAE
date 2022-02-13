@@ -9,7 +9,7 @@ function Navbar() {
         <div className="topbar sticky-top">
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container-fluid py-3 border-bottom">
-                    <Link className="navbar-brand" to="/"><img className="navLogo" src={myLogo} art="HJ_logo"></img></Link>
+                    <Link className="navbar-brand" to="/"><img className="navLogo" src={myLogo} alt="HJ_logo"></img></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <FontAwesomeIcon icon={faBars} style={{ color: "#111111" }} />
                     </button>
