@@ -79,14 +79,6 @@ class GSCaltex extends React.Component {
                             </div>
                             <div className="row featurette projectModules">
                                 <div className="col-md-5">
-                                    <h2 className="project-h2">Analysis</h2>
-                                </div>
-                                <div className="col-md-7">
-                                    <p className="project-p">After constructive discovery sessions, we found that there are 2 different user groups(leaders and staff). They spend so much time consolidating and updating data for supply plans. With unmanaged data, they had to deal with inquiries from other departments as well. They wanted to zero in on decision making with the data for plans rather than manual works such as updating and integrating data. Finally, we could address common workflows and 7 areas they are working on for the operating system.</p>
-                                </div>
-                            </div>
-                            <div className="row featurette projectModules">
-                                <div className="col-md-5">
                                     <h2 className="project-h2">Development and Testings</h2>
                                 </div>
                                 <div className="col-md-7">

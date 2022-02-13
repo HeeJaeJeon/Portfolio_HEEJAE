@@ -83,8 +83,8 @@ function OneThirdFitness() {
                   <li>Created new customer journey maps for 3 personas by reflecting the Covid19 situations.</li>
                   <li>Competitive analysis to find services that could be provided with the outbreak.</li>
                   <li>Feature prioritization for the services.</li>
-                  <li>Create UI design for app and admin system.</li>
-                  <li>Modification design through feedback from testing.</li>
+                  <li>Created UI design for app and admin system.</li>
+                  <li>Modification designs through feedback from testings.</li>
                 </ol>
               </div>
             </div>
