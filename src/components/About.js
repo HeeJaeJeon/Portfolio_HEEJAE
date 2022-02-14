@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceHolder from "../images/Placeholder.png";
+import HeejaeProfilePic from "../images/HeejaeProfilePic.png";
 import Thiswebsite from "./Thiswebsite";
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
     <div id="about" className="About-wrapper">
             <div className="About-info">
                 <h1 className='AboutHeader'>About HEEJAE</h1>
-                <img className="profilePicture featurette-image img-fluid mx-auto"  aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={PlaceHolder} alt="Placeholder"></img>
+                <img className="profilePicture featurette-image img-fluid mx-auto"  aria-label="placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" src={HeejaeProfilePic} alt="Placeholder"></img>
                 <div className="row featurette about-contents">
                     <div className="col-md-5">
                         <h2 id="scrollspyHeading3">Expertise</h2>
