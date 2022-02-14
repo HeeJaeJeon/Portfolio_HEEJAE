@@ -13,11 +13,17 @@ function HangwhaTechwin() {
     return (
         <div className="project-wrapper">
             <div className="project-info-header">
-                <div className="project-header">
+                {/* <div className="project-header">
                     <div classNames="col-md-12 container text-center project-head-heght">
                         <h1 className="project-h1">Self check in/out services by using image data from CCTV (PoC)</h1>
                     </div>
                     <figure className="col-md-12 project-head-heght"><img className="featurette-image img-fluid mx-auto project-img" aria-label="HanwhaTechwinBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinBg} alt="HanwhaTechwinBg"></img></figure>
+                </div> */}
+                <div className="project-header">
+                    <div classNames="col-md-12 container text-center project-head-heght">
+                        <h1 className="project-h1">Self check in/out services by using image data from CCTV (PoC)</h1>
+                    </div>
+                    <img className="featurette-image img-fluid mx-auto project-img" aria-label="HanwhaTechwinBg: 1232x275" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinBg} alt="HanwhaTechwinBg"></img>
                 </div>
                 <div className="project-info ">
                     <div className="project-contents">

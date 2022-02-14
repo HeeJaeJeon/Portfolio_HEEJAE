@@ -590,9 +590,9 @@ figure {
   text-align: center;
 }
 
-.project-head-heght {
+/* .project-head-heght {
   height: 17.1875rem;
-}
+} */
 
 .project-header {
   background-color: var(--primary-black) !important;
