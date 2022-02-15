@@ -27,7 +27,7 @@ const About = () => {
                                 <dl>
                                     <dt>Service Designer, Project Manager</dt>
                                     <a className="experienceCompaniesLink" href="https://favoritemedium.com/" target="_blank" rel="noopener noreferrer">
-                                        <dd>Favorte Medium, S.Korea (Nov 2020 - Present)</dd>
+                                        <dd>Favorite Medium, S.Korea (Nov 2020 - Present)</dd>
                                     </a>
                                 </dl>
                             </li>
