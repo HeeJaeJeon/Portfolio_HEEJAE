@@ -60,7 +60,7 @@ function HangwhaTechwin() {
                                 <h2 className="project-h2">Discovery Results</h2>
                             </div>
                             <div className="col-md-7">
-                                <p className="project-p">After close collaborations with Techwin CCTV team, we understand their technical possibilities to detect guests. Therefore, we decided to focus on 3 scenarios and refine the image data by the development team.</p>
+                                <p className="project-p">After close collaborations with Techwin CCTV team, we understand their technical possibilities to detect guests. Therefore, we decided to focus on 8 scenarios and refine the image data by the development team.</p>
                                 <p className="project-p">Moreover, 95% of staff & user pain points on self-check in/out services were caused by UI Design and interaction flows from self-kiosks. Unfortunately, they rarely use image data from CCTV since there are too many CCTVs to monitor. Also, there aren’t any notification systems when they get urgent situations and events from guests.</p>
                                 <p className="project-p">As a result, for design, we set up new personas who are using the image data. For Hanwha Techwin’s business objectives, this project is not to revamp Kiosk’s UI design so we decided to run this project with 2 tracks:</p>
                                 <ol>

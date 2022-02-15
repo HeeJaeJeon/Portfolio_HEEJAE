@@ -32,7 +32,7 @@ function OneThirdFitness() {
               </div>
               <div className="col-md-7">
                 <p className="project-p">
-                  <a className="projectCompanyLinks" href="https://www.1-3rdfitness.com/">1/3 Fitness </a> is one of the 24-hour gyms in Japan located in 3 different cities. Their members and registration rates were dramatically decreasing since the COVID19 outbreak came up. They approach us to find new services to increase the number of memberships and registration rates against our break.</p>
+                  <a className="projectCompanyLinks" href="https://www.1-3rdfitness.com/">1/3 Fitness </a> is one of the 24-hour gyms in Japan located in 3 different cities. Their members and registration rates were dramatically decreasing since the COVID19 outbreak came up. They approach us to find new services to increase the number of memberships and registration rates against the outbreak.</p>
               </div>
             </div>
             <div className="row featurette projectModules">

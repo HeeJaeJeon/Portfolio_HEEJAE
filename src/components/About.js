@@ -85,12 +85,12 @@ const About = () => {
                     </div>
                     <div className="certsList col-md-7">
                         <ul>
-                            <li>
+                            {/* <li>
                                 <dl>
                                     <dt>Survey Analyst, Junior</dt>
                                     <dd>Human Resource Development Service of Korea (Aug 2014)</dd>
                                 </dl>
-                            </li>
+                            </li> */}
                             <li>
                                 <dl>
                                     <dt>Nielson Norman Group UX Certificate</dt>
