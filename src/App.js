@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Helmet } from "react-helmet";
 // import ScrollSpy from "react-ui-scrollspy";
+import favicon from "./images/favicon.ico"
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Works from "./components/Works";
@@ -21,6 +23,11 @@ import {
 function App() {
   return (
     <BrowserRouter>
+      <Helmet>
+        <title>HEEJAE JEON</title>
+        <link rel="icon" href={favicon} />
+        <meta name="description" content="This HEEJAE's Portfolio. Enjoy!" data-react-helmet="true"/>
+      </Helmet>
       <ScrollToTop />
       <div>
         <Navbar />
