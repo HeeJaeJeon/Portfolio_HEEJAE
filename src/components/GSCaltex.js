@@ -104,7 +104,7 @@ class GSCaltex extends React.Component {
                                     <h2 className="project-h2">Contribution</h2>
                                 </div>
                                 <div className="col-md-7">
-                                    <p className="project-p">This project was a valuable opportunity to join as a project manager and a service designer so I was ble to involve entire UX process including development until publishing the product. But my main contribution was:</p>
+                                    <p className="project-p">This project was a valuable opportunity to join as a project manager and a service designer so I was able to involve entire UX process including development until publishing the product. But my main contribution was:</p>
                                     {/* <p className="project-p project-p-subtitle">As a service designer:</p> */}
                                     <dl>
                                     <dt className="project-p project-p-subtitle">As a service designer:</dt>
