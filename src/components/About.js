@@ -13,7 +13,7 @@ const About = () => {
                         <h2 id="scrollspyHeading3">Expertise</h2>
                     </div>
                     <div className="col-md-7">
-                        <p className="lead">HEEJAE is a serveice/interaction designer currently based in South Korea who has great empathy and solid understanding of digital experience. He has been uncovering insights by conducting client/customer immersion activities such as observational studies, workshops, user interviews and user testings. He is also translating unveiled insights to design concepts on wireframes and mock-ups. He is eager to learn as well as attentive to details.</p>
+                        <p className="lead">HEEJAE is a product/service designer currently based in South Korea who has great empathy and solid understanding of digital experience. He has been uncovering insights by conducting client/customer immersion activities such as observational studies, workshops, user interviews and user testings. He is also translating unveiled insights to design concepts on wireframes and mock-ups. He is eager to learn as well as attentive to details.</p>
                     </div>
                 </div>
                 <div className="row featurette about-contents">
@@ -21,11 +21,11 @@ const About = () => {
                         <h2>Experiences</h2>
                     </div>
                     <div className="col-md-7">
-                        <p>His experience shows that he is a cross-functional and multicultural professional by performing as a Service designer as well as a Project manager. Also, He has been collaborating with many foreign colleagues in different countries(from US, Europe and Asia). His early experience in the hospitality industry with international brands has sharpened his ability to approach user experience design with great empathy.</p>
+                        <p>His experience shows that he is a cross-functional and multicultural professional by performing as a Product designer as well as a Project manager. Also, He has been collaborating with many foreign colleagues in different countries(from US, Europe and Asia). His early experience in the hospitality industry with international brands has sharpened his ability to approach user experience design with great empathy.</p>
                         <ul className="experienceList">
                             <li>
                                 <dl>
-                                    <dt>Service Designer, Project Manager</dt>
+                                    <dt>Product/Service Designer, Project Manager</dt>
                                     <a className="experienceCompaniesLink" href="https://favoritemedium.com/" target="_blank" rel="noopener noreferrer">
                                         <dd>Favorite Medium, S.Korea (Nov 2020 - Present)</dd>
                                     </a>
@@ -33,7 +33,7 @@ const About = () => {
                             </li>
                             <li>
                                 <dl>
-                                    <dt>Service/Product Designer</dt>
+                                    <dt>Product/Service Designer</dt>
                                     <a className="experienceCompaniesLink" href="https://uxboost.com/" target="_blank" rel="noopener noreferrer">
                                     <dd>UX Booost, Remote (Apr 2020 - Nov 2020)</dd>
                                     </a>
