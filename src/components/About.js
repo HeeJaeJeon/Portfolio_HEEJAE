@@ -72,7 +72,7 @@ const About = () => {
                     </div>
                     <div className="col-md-7">
                         <h3>Design</h3>
-                        <p>Figma, Sketch, XD, Illustrator, Photoshop, Indesign, Aftereffects, Miro, Whimsical</p>
+                        <p>Figma, Sketch, XD, Illustrator, Photoshop, Indesign, Aftereffects, Protopie, Miro, Whimsical</p>
                         <h3>Development</h3>
                         <p>HTML, CSS, Javascript, jQuery, ReactJS, NodeJs, VS Code, Atom, Git & Github, Postman, MongoDB</p>
                         <h3>Project Management</h3>
@@ -100,7 +100,7 @@ const About = () => {
                             <li>
                                 <dl>
                                     <dt>User Experience Design Certificate</dt>
-                                    <dd>General Assembly, Singpaore (Feb 2020)</dd>
+                                    <dd>General Assembly, Singapore (Feb 2020)</dd>
                                 </dl>
                             </li>
                             <li>
