@@ -220,7 +220,7 @@ class GSCaltex extends React.Component {
                                     <p className="project-p">This project was a valuable opportunity to join as a project manager and a product designer so I was able to involve entire UX process including development until publishing the product. But my main contribution was:</p>
                                     {/* <p className="project-p project-p-subtitle">As a service designer:</p> */}
                                     <dl>
-                                    <dt className="project-p project-p-subtitle">As a Product designer:</dt>
+                                    <dt className="project-p project-p-subtitle">As a product designer:</dt>
                                     <ol>
                                         <li>Conducted workshops, stakeholder and user interviews. Work closely with designers for design initiatives.</li>
                                         <li>Conducted usability testings and consolidated feedbacks. Implemented design modifications.</li>
