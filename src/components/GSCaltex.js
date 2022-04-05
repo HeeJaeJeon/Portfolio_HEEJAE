@@ -254,10 +254,9 @@ class GSCaltex extends React.Component {
 
                                 </div>
                                 <div className="col-md-6 projectArrowRight">
-                                    <Link to="/hanwhatechwin">
-                                        <h2 className="project-h2" text-align="right">Hanwha <span><FontAwesomeIcon icon={faChevronRight} className="chevronRight" /></span></h2>
-                                        
-                                    </Link>
+                                  <Link to="/onethirdfitness">
+                                    <h2 className="project-h2">1/3 Fitness <span><FontAwesomeIcon icon={faChevronRight} className="chevronRight" /></span></h2>
+                                  </Link>
                                 </div>
                             </div>
                         </div>

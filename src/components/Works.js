@@ -28,15 +28,15 @@ const Works = () => {
                 </div>
                 <div className="row featurette pro-works-list">
                     <div className="col-md-6 works-imgs">
-                        <Link to="/hanwhatechwin">
-                            <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="GSC: 424x283" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaImg} alt="Hanwha"></img></figure>
-                            <h3>Hanwha Techwin</h3>
-                        </Link>
-                    </div>
-                    <div className="col-md-6 works-imgs">
                         <Link to="/onethirdfitness">
                             <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="GSC: 424x283" preserveAspectRatio="xMidYMid slice" focusable="false" src={oneThirdFitnessImge} alt="1/3Fitness"></img></figure>
                             <h3>1/3 Fitness</h3>
+                        </Link>
+                    </div>
+                    <div className="col-md-6 works-imgs">
+                        <Link to="/hanwhatechwin">
+                            <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="GSC: 424x283" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaImg} alt="Hanwha"></img></figure>
+                            <h3>Hanwha Techwin</h3>
                         </Link>
                     </div>
                 </div>

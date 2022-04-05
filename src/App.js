@@ -37,7 +37,6 @@ function App() {
         button: { fontWeight: "700", height: "2.85em", lineHeight: "2.95em",  maxWidth: "400px", color: "#828282", padding: "0 1.75em",  border: "0", borderRadius: "6px", backgroundColor: "transparent", appearance: "none", transition: "backgroundColor .2s ease-in-out,color .2s ease-in-out", boxShadow: "inset 0 0 0 2px #e6e6e6" }
       }}
     >
-    
     <BrowserRouter>
       <Helmet>
         <title>HEEJAE JEON</title>

@@ -101,13 +101,13 @@ function HangwhaTechwin() {
 
                         <div className="row featurette projectModules projectArrows">
                             <div className="col-md-6 projectArrowLeft">
-                                <Link to="/GSCaltex">
-                                    <h2 className="project-h2"><span><FontAwesomeIcon icon={faChevronLeft} className="chevronRight" /></span> GS Caltex </h2>
+                                <Link to="/onethirdfitness">
+                                  <h2 className="project-h2"><span><FontAwesomeIcon icon={faChevronLeft} className="chevronRight" /></span> 1/3 Fitness</h2>
                                 </Link>
                             </div>
                             <div className="col-md-6 projectArrowRight">
-                                <Link to="/onethirdfitness">
-                                    <h2 className="project-h2">1/3 Fitness <span><FontAwesomeIcon icon={faChevronRight} className="chevronRight" /></span></h2>
+                                <Link to="/works">
+                                 <h2 className="project-h2">Personal Works <span><FontAwesomeIcon icon={faChevronRight} className="chevronRight" /></span></h2>
                                 </Link>
                             </div>
                         </div>
