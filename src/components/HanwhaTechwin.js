@@ -4,10 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import HanwhaTechwinBg from "../images/HanwhaTechwinBgPic.png";
-import HanwhaTechwinDiscoveryPic from "../images/HanwhaTechwinDiscoveryPic.png"
 import HanwahTechwinInterview from "../images/HanwahTechwinInterview.png"
-
-
+import hanwhaUseCases from "../images/hanwhaUseCases.png"
+import hanwhaIdeation1 from "../images/hanwhaIdeation1.png"
+import hanwhaBenchmarking1 from "../images/hanwhaBenchmarking1.png"
+import hanwhaWireframes1 from "../images/hanwhaWireframes1.png"
+import hanwhaHifiMockUp1 from "../images/hanwhaHifiMockUp1.png"
+import hanwaMockup1 from "../images/hanwaMockup1.png"
+import hanwaMockup2 from "../images/hanwaMockup2.png"
 
 function HangwhaTechwin() {
     return (
@@ -33,56 +37,130 @@ function HangwhaTechwin() {
                             </div>
                             <div className="col-md-7">
                                 <p className="project-p">
-                                    <a className="projectCompanyLinks" href="https://www.hanwha-security.com/en/" >Hanwha Techwin</a> is a video surveillance company and a subsidiary of Hanwha Group. The techwin team wanted to confirm that image data could be used for self check in/out processes and improve services for Hanwha hotels and resorts.</p>
-                            </div>
-                        </div>
-                        <div className="row featurette projectModules">
-                            <div className="col-md-7">
-                                <h2 className="project-h2">Workshops</h2>
-                                <p className="project-p">We had workshops to know Hanwha techwin’s business contexts and their objectives as well as success critera for this project. We found out that the key of this project is to understand current CCTV technologies and what kinds of image data we could get. Besides, it is important to know what kinds of scenarios we can use the data for.</p>
-                            </div>
-                            <div className="col-md-5 discovery-imgs">
-                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="HanwhTechwin_discovery: 456x272" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwhaTechwinDiscoveryPic} alt="HanwhaTechwin_discovery"></img></figure>
-
+                                    <a className="projectCompanyLinks" href="https://www.hanwha-security.com/en/" >Hanwha Techwin</a> is a video surveillance company and a subsidiary of Hanwha Group. The techwin team wanted to confirm whether the image data(from CCTV) could be used for self check in/out processes and improve services for Hanwha hotels and resorts or not.
+                                </p>
+                                <p className="project-p">So this Project became a PoC project with 2 different tracks:
+                                    <ul>
+                                        <li>Concept design PoC</li>
+                                        <li>Engineering PoC</li>
+                                    </ul>
+                                </p>
+                                <p>With my portfolio, I will zero in on the concept design PoC.</p>
                             </div>
                         </div>
                         <div className="row featurette projectModules">
                             <div className="col-md-7">
                                 <h2 className="project-h2">User Interviews</h2>
-                                <p className="project-p">We visited one of the hanwha hotels in Gangwon province in South korea and this hotel is executing self check in/out services. We conducted interviews with 6 staff from 3 different departments(front desk, maintenance team and housekeeping).  With sessions, we understand how they are currently using image data and uncover problems on self services. </p>
+                                <p className="project-p">We visited one of the hanwha hotels in Gangwon province in South korea and this hotel is executing self check in/out services. We conducted interviews with 4 staff from 2 different departments(front desk and maintenance team).  With sessions, we understood how they were using image data and uncovered pain points.</p>
                             </div>
                             <div className="col-md-5 discovery-imgs">
                                 <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="HanwahTechwinInterview: 360x270" preserveAspectRatio="xMidYMid slice" focusable="false" src={HanwahTechwinInterview} alt="HanwahTechwinInterview"></img></figure>
                             </div>
                         </div>
                         <div className="row featurette projectModules">
+                            <div className="col-md-12">
+                                <h2 className="project-h2">Interview Results</h2>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules1">
                             <div className="col-md-5">
-                                <h2 className="project-h2">Discovery Results</h2>
+                                <h3 className="project-h3">Personas</h3>
                             </div>
                             <div className="col-md-7">
-                                <p className="project-p">After close collaborations with Techwin CCTV team, we understand their technical possibilities to detect guests. Therefore, we decided to focus on 8 scenarios and refine the image data by the development team.</p>
-                                <p className="project-p">Moreover, 95% of staff & user pain points on self-check in/out services were caused by UI Design and interaction flows from self-kiosks. Unfortunately, they rarely use image data from CCTV since there are too many CCTVs to monitor. Also, there aren’t any notification systems when they get urgent situations and events from guests.</p>
-                                <p className="project-p">As a result, for design, we set up new personas who are using the image data. For Hanwha Techwin’s business objectives, this project is not to revamp Kiosk’s UI design so we decided to run this project with 2 tracks:</p>
-                                <ol>
-                                    <li>Development Track: proving image data usage and refine the data. Finally built simple dashboard to show data.</li>
-                                    <li>Marketing Track: create wireframe and high-fidelity mock-up for a fancy dashboard and image data visualization pages  with new personas and this design will be for marketing purposes to Hanwha Hotels and resorts.</li>
-                                </ol>
+                                <p className="project-p">We got 2 personas:
+                                    <ul>
+                                        <li>Lobby manager: Customer service and Room stock management</li>
+                                        <li>Facilities team leader: Facilities management</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules1">
+                            <div className="col-md-5">
+                                <h3 className="project-h3">Pain points</h3>
+                            </div>
+                            <div className="col-md-7">
+                                <p className="project-p">The pain points were on:
+                                    <ul>
+                                        <li>They could not see the check in/out at a glance</li>
+                                        <li>No internal communication channels</li>
+                                        <li>They don't know the location of CCTVs</li>
+                                        <li>They have too many screens to check</li>
+                                        <li>No notification systems</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules1">
+                            <div className="col-md-5">
+                                <h3 className="project-p">Use cases</h3>
+                                <ul>
+                                    <li>Can we improve our current work using image analysis data?</li>
+                                    <li>Can video analytics data be used to improve facilities team work?</li>
+                                </ul>
+                            </div>
+                            <div className="col-md-7">
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwhaUseCases: 520x375" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwhaUseCases} alt="hanwhaUseCases"></img></figure>
                             </div>
                         </div>
                         <div className="row featurette projectModules">
-                            <div className="col-md-5">
-                                <h2 className="project-h2">Ideation and Design</h2>
-                            </div>
-                            <div className="col-md-7">
-                                <p className="project-p">Since the image data should be reflected on the design, Design team had to collaborate closely. Our developers are not in Korea so we conduct an ideation session remotely through Google Jamboard. Design team also researched other PMS systems to get more ideas. After we created wireframes and prototypes, we had several discuss session with Techwin team and eventually came up with final design that had notification function, image data visualization and tables.</p>
+                            <div className="col-md-12">
+                                <h2 className="project-h2">Design</h2>
                             </div>
                         </div>
-                        <div className="row featurette projectModules">
+                        <div className="row featurette projectSubModules1">
                             <div className="col-md-5">
-                                <h2 className="project-h2">Testing lab and Development</h2>
+                                <h3 className="project-p">Ideation</h3>
+                                <p className="project-p">If IP Camera video analysis data is used, how can it help hotel operation?</p>
                             </div>
                             <div className="col-md-7">
-                                <p className="project-p">We set the testing lab through the scenarios and get the image data and metadata. After refining data, we showed it in graphs and tables on the dashboard. Eventually, we could detect loitering, check-in/out events and we were able to send notifications to follow up the events.</p>
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwhaIdeation1: 520x252" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwhaIdeation1} alt="hanwhaIdeation1"></img></figure>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules1">
+                            <div className="col-md-5">
+                                <h3 className="project-p">Benchmarking</h3>
+                                <p>We benchmarked systems such as:
+                                    <ul>
+                                        <li>Property Management System (PMS)</li>
+                                        <li>Central Reservation System (CRS)</li>
+                                        <li>Customer relationship management (CRM)</li>
+                                        <li>AI Systems</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div className="col-md-7">
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwhaBenchmarking1: 520x207" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwhaBenchmarking1} alt="hanwhaBenchmarking1"></img></figure>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules1">
+                            <div className="col-md-12">
+                                <h3 className="project-h3">Wireframes</h3>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules2">
+                            <div className="col-md-12">
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwhaWireframes1: 880x381" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwhaWireframes1} alt="hanwhaWireframes1"></img></figure>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules1">
+                            <div className="col-md-5">
+                                <h3 className="project-h3">High fidelity prototypes</h3>
+                            </div>
+                            <div className="col-md-7">
+                                <p className="project-p">Key functions are:
+                                    <ul>
+                                        <li>Dashboard: status of check in/out, status of issues</li>
+                                        <li>Notification function</li>
+                                        <li>Data analysis for customer and the use of spaces</li>
+                                        <li>Issue analysis</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules2">
+                            <div className="col-md-12">
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwhaHifiMockUp1: 880x460" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwhaHifiMockUp1} alt="hanwhaHifiMockUp1"></img></figure>
                             </div>
                         </div>
                         <div className="row featurette projectModules">
@@ -98,16 +176,29 @@ function HangwhaTechwin() {
                                 </ol>
                             </div>
                         </div>
+                        <div className="row featurette projectSubModules2">
+                            <div className="col-md-3">
+                               
+                            </div>
+                            <div className="col-md-9">
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwaMockup1: 675x493" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwaMockup1} alt="hanwaMockup1"></img></figure>
+                            </div>
+                        </div>
+                        <div className="row featurette projectSubModules2">
+                            <div className="col-md-12">
+                                <figure className="col-md-12"><img className="featurette-image img-fluid mx-auto" aria-label="hanwaMockup2: 672x360" preserveAspectRatio="xMidYMid slice" focusable="false" src={hanwaMockup2} alt="hanwaMockup2"></img></figure>
+                            </div>
+                        </div>
 
                         <div className="row featurette projectModules projectArrows">
                             <div className="col-md-6 projectArrowLeft">
                                 <Link to="/onethirdfitness">
-                                  <h2 className="project-h2"><span><FontAwesomeIcon icon={faChevronLeft} className="chevronRight" /></span> 1/3 Fitness</h2>
+                                    <h2 className="project-h2"><span><FontAwesomeIcon icon={faChevronLeft} className="chevronRight" /></span> 1/3 Fitness</h2>
                                 </Link>
                             </div>
                             <div className="col-md-6 projectArrowRight">
                                 <Link to="/works">
-                                 <h2 className="project-h2">Personal Works <span><FontAwesomeIcon icon={faChevronRight} className="chevronRight" /></span></h2>
+                                    <h2 className="project-h2">Personal Works <span><FontAwesomeIcon icon={faChevronRight} className="chevronRight" /></span></h2>
                                 </Link>
                             </div>
                         </div>
