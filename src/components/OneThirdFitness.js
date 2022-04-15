@@ -128,7 +128,7 @@ function OneThirdFitness() {
                 <h3 className="project-p">Smart mirror app</h3>
                 <p className="project-p">Functions:
                   <ul>
-                    <li>Dachboard</li>
+                    <li>Dashboard</li>
                     <li>Videos</li>
                     <li>Live sports</li>
                     <li>Training Schedule</li>
